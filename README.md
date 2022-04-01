@@ -6,7 +6,7 @@
 ##### 原始需求
 1. 建立一個Console Application模擬三個機台，需模擬每個機台的產出資料，資料類型分別有三種
    - 不同產品(最少三種產品)的投入與產出數量
-   - 機台運行狀態
+   - 機台運行狀態,ex: Stop, Run, Idel
    - 機台異常狀態
 2. 即使顯示資訊最少要包含每個設備運行狀態、異常資訊顯示、機台內目前進出的產品數和當日累積的生產產品量
 3. 有一個報表可以查詢過去每個設備的每小時生產數量，並可以將結果下載成Excel檔案
@@ -16,7 +16,7 @@
 - 請將開發之系統，佈署至Micrsoft Azure (可免費使用30天)
 - 請將程式碼透過Azure DevOps Service進行版控 (可免費使用)，請將專案設定公開
 > 技術
-- Web : 請使用ASP.Net Core 3.1 或是ASP.NET Core 6 開發
+- Web : 請使用ASP.NET Core 6 開發
 - Web API : 請使用.Net6開發
 - DataBase : MS SQL，務必使用SQL Project開發SQL程式
 > 請用Signalr技術完成即時通訊的需求，所有開發都必須有版控機制
