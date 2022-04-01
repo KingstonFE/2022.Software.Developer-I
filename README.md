@@ -30,7 +30,6 @@
 
 > 第二次面試時，請現場Demo作品及說明系統架構
 - Demo時，請直接使用Azure Web Site成品展示
-- 當天顯示Azure DevOps Service版控歷史紀錄
 
 > 請依照`Description`，發揮創意、設計解決方案
 
